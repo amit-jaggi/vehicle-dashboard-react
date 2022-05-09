@@ -1,0 +1,86 @@
+.VehicleStatus {
+    /* border: 1px solid red; */
+    width: 418px;
+    height: 257px;
+}
+
+.VehicleStatus p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.VehicleStatus .Specs {
+    height: 225px;
+    margin-top: 10px;
+    background: linear-gradient(253.84deg, #F5F5F5 0%, #FAFAFA 100%, #FAFAFA 100%);
+    border-radius: 5px;
+    color: #000000;
+    position: relative;
+}
+
+
+
+
+
+.VehicleStatus .Specs .leftSpecs {
+    position: absolute;
+    /* border: 1px solid blue; */
+    width: 137px;
+    height: 145px;
+    top:  29px;
+    left: 23px;
+}
+
+/* .VehicleStatus .Specs .leftSpecs table {
+    border: 1px solid red;
+} */
+
+.VehicleStatus .Specs .leftSpecs table tr{
+    width: 137px;
+    /* border:1px solid yellow; */
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.VehicleStatus .Specs .leftSpecs table td {
+    /* border: 1px solid green; */
+    text-align: left;
+    font-weight: 500;
+}
+
+.VehicleStatus .Specs .leftSpecs table .specLight {
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+.VehicleStatus .Specs .rightSpecs {
+    position: absolute;
+    top:  32px;
+    left: 250px;
+}
+
+.VehicleStatus .Specs .rightSpecs table {
+    /* border: 1px solid red; */
+}
+
+.VehicleStatus .Specs .rightSpecs table tr {
+    line-height: 31px;
+    font-size: 14px;
+}
+
+.VehicleStatus .Specs .rightSpecs table tr i {
+    color: #66BB6A;
+}
+
+.VehicleStatus .Specs .rightSpecs table tr .specBold {
+    font-weight: 500;
+    padding-left: 10px;
+}

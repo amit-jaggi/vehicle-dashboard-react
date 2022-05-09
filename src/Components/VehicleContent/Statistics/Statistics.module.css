@@ -1,0 +1,36 @@
+.StatisContainer {
+    position: absolute;
+    top: 0px;
+    left: 440px;  
+    width: 544px;
+    height: 260px; 
+}
+
+.StatisContainer .StaticsHeading {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.StatisContainer .StaticsHeading .bgGrey {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 5px 8px;
+    background: #F5F5F5;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.StatisContainer  .bgGrey:hover {
+    background: #424242;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.StatisContainer .StaticsBody {
+    margin-top: 12px;
+}

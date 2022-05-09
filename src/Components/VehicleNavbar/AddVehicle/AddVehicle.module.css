@@ -1,0 +1,28 @@
+/* Add-Button */
+button {
+    width: 258px;
+    height: 48px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.addBtn {
+    margin: 34px 24px 0 23px;
+    background: #424242;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.addBtn i {
+    margin-right: 15px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+}

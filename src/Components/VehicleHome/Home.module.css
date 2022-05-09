@@ -1,0 +1,19 @@
+.HomeContainer {
+    background: #FFFFFF;
+    width: 1135px;
+    height: 1024px;
+    box-shadow: -4px 0px 10px #E0E0E0;
+    position: relative;
+}
+
+.HomeContainer .HomeContent {
+    position: absolute;
+    top: 240px;
+    left: 35px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.HomeContainer .HomeContent p {
+    font-size: 20px;
+}

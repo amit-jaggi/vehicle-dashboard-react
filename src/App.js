@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { VehicleNavbar } from './Components/VehicleNavbar/VehicleNavbar';
+import VehicleContent from './Components/VehicleContent/VehicleContent';
+import DatabaseProvider from './Components/VehicleDatabase/Database';
+import Home from './Components/VehicleHome/Home';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DatabaseProvider>
+        <BrowserRouter>
+          <VehicleNavbar />
+          <Routes>
+            <Route path="/" element={ <Home /> }/>
+            <Route path="/:vehicle" element={ <VehicleContent /> }/>
+          </Routes>
+        </BrowserRouter>
+      </DatabaseProvider>
     </div>
   );
 }

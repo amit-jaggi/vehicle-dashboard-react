@@ -6,6 +6,7 @@ import DatabaseProvider from './Components/VehicleDatabase/Database';
 import Home from './Components/VehicleHome/Home';
 
 const App = () => {
+  document.title = "REVOS Assignment"
   return (
     <div className="App">
       <DatabaseProvider>

@@ -22,7 +22,8 @@ export const VehicleNavbar = () => {
 
     return (
         <div className={style.NavbarContainer}>
-            <h1>Vehicle Viewer</h1>
+            <Link to="/" className={style.HomeLink}><h1 onClick={() => setActiveVehicle([])}>Vehicle Viewer </h1></Link>
+            
 
             {   
                 // Toggle Add/Search Button
